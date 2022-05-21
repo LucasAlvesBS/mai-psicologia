@@ -138,6 +138,10 @@ section .content p {
   fill: var(--brand-light);
 }
 
+#navigation .logo img {
+  width: 12rem; 
+}
+
 #navigation .logo path[fill*="#00856F"],
 #backToTopButton circle {
   fill: var(--primary-color);
@@ -433,9 +437,9 @@ footer .logo {
   margin-bottom: 2.4rem;
 }
 
-footer .logo svg {
+footer .logo img {
   width: 23.6rem;
-  height: 3.1rem;
+  height: 8rem;
 }
 
 footer .logo path {
@@ -669,7 +673,7 @@ footer .social-links {
   }
 
   #home img {
-    width: 42rem;
+    width: 40rem;
   }
 
   /* ========== SERVICES ========== */
